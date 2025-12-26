@@ -1,11 +1,6 @@
-import type { NextConfig } from "next";
+await import("./src/env.js");
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import("next").NextConfig} */
+const config = {};
 
-      }
-    ]
-  }
-};
-
-export default nextConfig;
+export default config;
